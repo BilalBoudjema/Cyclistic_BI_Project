@@ -1,86 +1,83 @@
 # Cyclistic_BI_Project
 
-Title: Cyclistic BI Project Overview
+# Welcome to Cyclistic!
 
-- Welcome to Cyclistic!
-  - New job with the business intelligence team
-  - Utilize BI stages: capture, analyze, monitor
-  - End-of-course project for potential employers
+Cyclistic, a fictional bike-share company based in New York City. Your expertise in the BI stages—capture, analyze, and monitor—will be crucial in delivering BI business value and enhancing organizational data maturity. Your end-of-course project will showcase your skills to future employers.
 
-- Meeting Notes
-  - Stakeholder meeting attended
-  - Gather details for:
-    - Stakeholder Requirements Document
-    - Project Requirements Document
-    - Planning Document
-  - Refer to previous readings and self-review
+## Your Meeting Notes
 
-- Project Background
-  - Primary dataset: NYC Citi Bike Trips
-  - Secondary dataset: Census Bureau US Boundaries
-  - Partnership with New York City
-  - Bike stations across Manhattan and neighboring boroughs
-  - Customer Growth Team's business plan for next year
-  - Focus on customer demand at different station locations
-  - Data points captured for each trip
-    - Start/end time and location
-    - Bike ID
-    - Customer type (one-time or subscriber)
-  - Need for a dashboard summarizing key insights
+These notes will inform the Stakeholder Requirements Document, Project Requirements Document, and Planning Document. For further guidance, review the previous readings and the self-review exercises.
 
-- Stakeholders
-  - Sara Romero (VP, Marketing)
-  - Ernest Cox (VP, Product Development)
-  - Jamal Harris (Director, Customer Data)
-  - Nina Locklear (Director, Procurement)
-  - Team Members
-    - Adhira Patel (API Strategist)
-    - Megan Pirato (Data Warehousing Specialist)
-    - Rick Andersson (Manager, Data Governance)
-    - Tessa Blackwell (Data Analyst)
-    - Brianne Sand (Director, IT)
-    - Shareefah Hakimi (Project Manager)
-  - Primary contacts: Adhira, Megan, Rick, Tessa
-  - Dashboard requirements: accessible, large print, text-to-speech
+### Project Background
 
-- Project Approvals and Dependencies
-  - Customer data approval by Jamal
-  - Approval for product data access
-  - Stakeholder data access to all datasets
+**Primary dataset:** NYC Citi Bike Trips  
+**Secondary dataset:** Census Bureau US Boundaries
 
-- Project Goal
-  - Grow Cyclistic’s Customer Base
-  - Understand customer needs and successful product features
-  - Inform new station growth based on customer usage insights
-  - Investigate user patterns across locations and activity levels
-  - Consider weather impact on usage
+Cyclistic has established a partnership with New York City, offering bike-sharing services across Manhattan and adjacent boroughs. The Customer Growth Team is crafting a business plan for the upcoming year, aiming to understand customer usage patterns, especially the demand at different station locations.
 
-- Deliverables and Metrics
-  - Visualizations for station locations, trip durations, and trends
-  - Focus on peak months and summer of 2015
-  - Year-over-year trip growth percentage
-  - Congestion insights at stations
-  - Peak usage insights by time of day, season, weather impact
-  - 6-week deadline for dashboard creation
+#### Data Captured
 
-- Measure Success
-  - Analyze data spanning at least one year
-  - Evaluate seasonality effects on usage
-  - Understand trends per location and user type
-  - Impact of weather on customer demand
+- Trip start and end times and locations (station number, latitude/longitude)
+- Bike identification numbers
+- Customer types (one-time or subscriber)
 
-- Other Considerations
-  - Geographic aggregation beyond latitude/longitude
-  - Separate database for additional geographic details
-  - Weather data limitations
-  - Consider station bike availability
-  - Anonymize users for privacy
+The team requires a dashboard to summarize the vast data from millions of rides, providing clear insights for the leadership team.
 
-- Dashboard Access
-  - List of individuals with viewing privileges
+### Stakeholders
 
-- Roll-out Plan
-  - Week 1: Dataset assignment and initial design
-  - Weeks 2–3: SQL and ETL development
-  - Weeks 3–4: Finalize SQL, dashboard design, peer review
-  - Weeks 5–6: Dashboard development and testing
+- **Sara Romero**, VP, Marketing
+- **Ernest Cox**, VP, Product Development
+- **Jamal Harris**, Director, Customer Data
+- **Nina Locklear**, Director, Procurement
+- **Team Members:**
+  - Adhira Patel, API Strategist
+  - Megan Pirato, Data Warehousing Specialist
+  - Rick Andersson, Manager, Data Governance
+  - Tessa Blackwell, Data Analyst
+  - Brianne Sand, Director, IT
+  - Shareefah Hakimi, Project Manager
+
+*Primary contacts: Adhira, Megan, Rick, and Tessa.*
+
+Per Sara: The dashboard should be accessible, with options for large print and text-to-speech.
+
+### Project Approvals and Dependencies
+
+Data access approvals are required from Jamal and other teams for product-specific data.
+
+### Project Goal
+
+Grow Cyclistic’s Customer Base by understanding customer needs, product success, and the potential for new station locations to meet demand.
+
+### Deliverables and Metrics
+
+- Visualization of starting and ending station locations.
+- Popular destination visualization based on total trip minutes.
+- Trend analysis from the summer of 2015.
+- Year-over-year growth percentage in the number of trips.
+- Insights on station congestion and peak usage patterns.
+
+*The dashboard must be completed within 6 weeks!*
+
+### Measure Success
+
+Analyze year-long data to assess the impact of seasonality on usage and understand customer demand patterns.
+
+### Other Considerations
+
+- The dataset lacks detailed geographic aggregation; a separate database will be provided.
+- Weather data limitations.
+- Consideration of bike availability at starting locations.
+- Data anonymization to protect user privacy.
+
+### People with Dashboard-Viewing Privileges
+
+Adhira, Brianne, Ernest, Jamal, Megan, Nina, Rick, Shareefah, Sara, Tessa
+
+### Roll-out Plan
+
+- **Week 1:** Dataset assignment and initial design validation.
+- **Weeks 2–3:** SQL and ETL development.
+- **Weeks 3–4:** Finalize SQL and dashboard design; peer review.
+- **Weeks 5–6:** Dashboard development and testing.
+
